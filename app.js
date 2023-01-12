@@ -1,6 +1,6 @@
 var express = require("express");
 var app = express(); 
-
+var port = process.env.port || 3000;
 //set up a route for static files
 app.use(express.static(__dirname+"/static"))
 
@@ -21,5 +21,5 @@ app.get('/home',
 );
 
 //Listener is last
-app.listen(3000, function(){console.log("running on localhost:3000")}); //Looking at port 3000 With a Callback Function
+app.listen(port, function(){console.log("running on netlifi")}); //Looking at port 3000 With a Callback Function
 
