@@ -1,5 +1,6 @@
 var express = require("express");
 var app = express(); 
+
 var port = process.env.port || 3000;
 //set up a route for static files
 app.use(express.static(__dirname+"/static"))
