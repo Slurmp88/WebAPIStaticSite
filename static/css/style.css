@@ -1,0 +1,10 @@
+html, body{
+    display: inline;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.Title{
+    width: 100%;
+    justify-content: center;
+} 
